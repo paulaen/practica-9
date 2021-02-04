@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Índice</a>
+    </nav>
+    <form action="web.php" method="GET">
+    <div class="eres">
+        <h3>¿Eres nuevo?</h3>
+        <p>Regístrate para guardar tu información y hacer <br> 
+        tus pedidos de forma más fácil y rápida.</p>
+        <hr>
+        <br>
+    </div>
+    
+    <div class="acce">
+        Email
+        <p><input type="email" name="email" id="email" placeholder="Introduce tu Email" size="52"></p>
+        <br>
+        Teléfono
+        <p><input type="telf" name="telf" id="telf" placeholder="Tu teléfono" size="52"></p>
+        <br>
+        Contraseña
+        <p><input type="password" name="pass" id="pass" placeholder="Introduce tu contraseña" size="52"></p>
+        <br>
+        Confirma tu contraseña
+        <p><input type="password" name="conf_pass" id="conf_pass" placeholder="Confirmar contraseña" size="52"></p>
+        <br>
+        
+        <p><input type="checkbox" name="priva" id="priva" required>He leído y acepto <a href="https://www.pizzahut.es/info/aviso-legal">Política de privacidad</a></p>
+        <p><input type="checkbox" name="priva2" id="priva2" required>Sí, acepto recibir comunicaciones comerciales <br>
+                y ofertas personalizadas según mi perfil.</p>
+        <br>
+        <p><input type="submit" name="entrar" value="Crea tu cuenta" class="cuenta"></p>
+    </div>
+    </form>
+</body>
+</html>
